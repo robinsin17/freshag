@@ -13,6 +13,29 @@
             font-size: 66px;
             font-family:'Times New Roman';
         }
+
+        table{
+            border:2px solid black;
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th,td{
+            padding:5px;
+            text-align:center;
+
+            font-size:23px;
+            border-collapse: collapse;
+
+            border:2px solid black 
+        }
+        th{
+            background-color: aquamarine;
+
+        }
+        input{
+
+            background-color:darkcyan;
+        }
         </style>
     </head>
     <body>
@@ -21,6 +44,7 @@
         <p>merge conflict</p>
 
         <h>tera baap aya</h>
+        <h1 style="color:rgb(89,199,99);text-align:50%;background-color: darkmagenta;">TERA DADA AYA LE!!</h1>
         
     <list>
         <ol>
@@ -35,13 +59,46 @@
            <li>bhuvi</li>
         </ul>
     </list>
-        <form>name:
-            <input type="text",name="Name"><br>password
+    <table>
+        <tr>
+            <th>NAME</th>
+            <th>CITY</th>
+            <th>MONEY</th>
+        </tr>
+        <tr>
+            <td style=color:cornflowerblue;>swiss</td>
+            <td style="color:blue;font-size: 22px;">paris</td>
+            <td style=color:greenyellow;>queensland</td>
             
-            <input type="password">
+        </tr><br>
+        <tr>
+            <td>canada</td>
+            <td>japan</td>
+            <td>china</td>
+        </tr>
+        <tr>
+            <td>
+                bulgaria
+            </td>
+            <td>costarica</td>
+            <td>venice</td>
+        </tr>
+
+    </table>
+
+
+
+
+        <form>name:
+            <input style=background-color:blue  type="text",name="Name";><br>password
+            
+            <input style=background-color:rgb(23,45,122) type="password">
                     
                 <br>
-                <button>submit</button>
+              
+               <input type="radio" name="gender" value="male">male
+               <input type="radio" name="gender" value="female">female<br>
+               <a href="rev2.html"><button>SUBMIT!!</button></a>
                 </form>
 </body>
 </html>
